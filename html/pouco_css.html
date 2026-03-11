@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um pouco de CSS</title>
+    <link rel="stylesheet" href="pouco_css.css"> <!-- referenciar o CSS pela tag link -->
+    <style>
+        h1 {
+            /* display: none; some o elemento da página (none)*/
+            /* background-color: red; colocar fundo vermelho*/
+            /* position: absolute;
+            top: 400px;
+            right: 400px; */
+            font-size: 20px;
+        }
+
+        .fundoVermelho /* representamos uma classe em CSS/JS com a notação ponto '.' */ {
+            background-color: #c00;
+        }
+
+        .negrito {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1> CSS </h1>
+    <span id="textoPrincipal"> Texto 1 </span> <br>
+    <span class="fundoVermelho negrito"> Texto 2 </span> <br>
+    <span class="fundoVermelho" wm-atrib> Texto 3 </span>
+    <!-- document.querySelectorAll('.<classe>') > serve para encontrar os elementos da classe passada, todos
+         document.querySelector('.<classe>') > serve para encontrar os elementos da classe passada, porém somente o primeiro-->
+    <!-- a notação para atributos personalizados é feito entre [] (colchetes) por exemplo:
+         document.querySelector('[wm-atrib]')-->        
+</body>
+</html>

@@ -1,0 +1,8 @@
+#textoPrincipal /* representamos um id em CSS/JS com a notação cerquilha '#' */ {
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px; /* espaçamento */
+            background-color: #444;
+            margin-bottom: 50px; /* margem de baixo */
+        }
