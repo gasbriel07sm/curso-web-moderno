@@ -1,0 +1,20 @@
+// ser mais curta e o this associado ao contexto que foi escrita
+let dobro = function (a) {
+    return 2 * a
+}
+
+// arrow function sempre vai ser uma função anônima
+dobro = (a) => {
+    return 2 * a
+}
+
+dobro = (a) => 2 * a // return implicito
+console.log(dobro(Math.PI))
+
+let ola = function () {
+    return 'Olá'
+}
+
+ola = () => 'Olá'
+ola = _ => 'Olá' // possui um param
+console.log(ola())
