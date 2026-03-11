@@ -11,5 +11,5 @@ function divisao(dividendo, divisor) {
     console.log(`Resto: ${resto}`)
 }
 
-divisao(20,4)
+divisao(144,7)
 

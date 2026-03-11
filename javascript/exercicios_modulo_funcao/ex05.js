@@ -11,4 +11,4 @@ function formatarMoeda(valor) {
     return `R$${valorFormatado}`
 }
 
-console.log(formatarMoeda(0.30000000000000004))
+console.log(formatarMoeda(2598.1154514545465))
